@@ -114,10 +114,8 @@ a {
 
 .wholeslogan {
   display: flex;
-  justify-content: center;
-  margin-left: 10%;
   flex-direction: column;
-  margin-top: 5rem;
+  align-items: flex-start; 
 }
 
 footer .socials{
@@ -203,7 +201,7 @@ footer .socials{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+  }
 
   .by {
     color: var(--text-color);
