@@ -197,7 +197,7 @@ footer .socials{
   }
 
   .wholeslogan {
-    margin: 13rem 0rem 0rem 1rem;
+    margin: 8rem 0rem 0rem 1rem;
     width: 90%;
     text-align: center;
     display: flex;
@@ -219,38 +219,3 @@ footer .socials{
     justify-content: center;
     bottom: 0;
   }
-
-  .discord {
-    width: 50px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  
-  .linkedin {
-    width: 50px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  
-  .x {
-    width: 50px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  
-  .github {
-    width: 50px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  
-  .instagram {
-    width: 50px;
-    margin-right: 94px;
-    margin-left: 5px;
-  }
-
-  .bullets {
-    list-style-type: none;
-  }
-}
