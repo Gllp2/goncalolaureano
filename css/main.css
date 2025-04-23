@@ -113,11 +113,12 @@ a {
 }
 
 .wholeslogan {
+  margin: 2rem auto 0 auto;
+  width: 90%;
+  text-align: center;
   display: flex;
-  justify-content: center;
-  margin-left: 10%;
   flex-direction: column;
-  margin-top: 5rem;
+  align-items: center;
 }
 
 footer .socials{
@@ -197,7 +198,7 @@ footer .socials{
   }
 
   .wholeslogan {
-    margin: 2rem 0rem 0rem 1rem;
+    margin: 0rem 0rem 0rem 1rem;
     width: 90%;
     text-align: center;
     display: flex;
@@ -254,4 +255,3 @@ footer .socials{
     list-style-type: none;
   }
 }
-
