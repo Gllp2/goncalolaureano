@@ -34,7 +34,8 @@ a {
 }
 
 .logo {
-    margin-top: 16px;
+  margin-top: 6px;
+  margin-left: 10px;
 }
 
 .navbar ul {
@@ -69,6 +70,59 @@ a {
     font-family: "Krona One", sans-serif;
     color : var(--text-color);
     font-size: 4rem;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+
+.imgcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.imgcontainer .img {
+  width: 180px;
+  height: 250px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(0 0 5px #333333) drop-shadow(0 0 10px #262525) drop-shadow(0 0 15px #262525);
+}
+
+
+.me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--text-color);
+  font-family: krona One, sans-serif;
+  width: 550px;
+  height: 380px;
+}
+
+.me .aboutme {
+  display: flex;
+  justify-content: center;
+  text-shadow: 3px 3px 5px #262525;
+
+}
+
+.aboutme {
+  display: flex;
+  font-size: 4rem;
+}
+
+.pabt {
+  margin:20px;
+  font-size: 1rem;
+  text-shadow: 3px 3px 5px #262525;
 }
 
 footer .socials{
@@ -128,19 +182,65 @@ footer .socials{
   }
 
   .menu {
-    margin-right: 1px;
+    margin-right: 10px;
+  }
+
+  .about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 110vh;
+    margin-top: 20px;
   }
   
-  .title {
+  .imgcontainer {
     display: flex;
     justify-content: center;
-    font-family: "Krona One", sans-serif;
-    color : var(--text-color);
+    align-items: center;
+    width: 250px;
+    height: 380px;
+  }
+  
+  
+  .imgcontainer .img {
+    width: 180px;
+    height: 250px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--text-color);
+    font-family: krona One, sans-serif;
+    width: 250px;
+    height: auto;
+  }
+  
+  .me .aboutme {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .aboutme {
+    display: flex;
     font-size: 2rem;
+  }
+  
+  .pabt {
+    margin:20px;
+    font-size: 10px;
   }
 
   footer .socials {
     padding-bottom: 0.5rem;
+    position: relative;
   }
 
   .discord {
