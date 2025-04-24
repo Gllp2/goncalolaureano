@@ -17,7 +17,7 @@ a {
 }
 
 .container {
-  background-color: var(--header-color);
+  background-image: linear-gradient(to right,#323841, #1e2227);
   font-size: 1.2rem;
   font-family: "Nunito Sans", sans-serif;
   height: 70px;
@@ -34,7 +34,8 @@ a {
 }
 
 .logo {
-    margin-top: 16px;
+  margin-top: 6px;
+  margin-left: 10px;
 }
 
 .navbar ul {
@@ -81,15 +82,15 @@ a {
   }
 
 .iframeone {
-  width: 500px; 
-  height: 299px; 
+  width: 50rem; 
+  height: 50rem; 
   border: none; 
   border-radius: 5px;
 }
   
   .boxiframe {
-    width: 300px;
-    height: 300px;
+    width: 50rem;
+    height: 50rem;
     background-color: #2d2f34;
     display: flex;
     justify-content: center;
@@ -107,6 +108,7 @@ footer .socials{
   position: fixed;
   justify-content: center;
   bottom: 0;
+  position: relative;
 }
 
 .discord {
@@ -172,8 +174,15 @@ footer .socials{
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
+    
   }
   
+  .iframeone {
+    width: 300px; 
+    height: 300px; 
+    border: none; 
+    border-radius: 5px;
+  }
 
   .boxiframe {
     width: 300px;
