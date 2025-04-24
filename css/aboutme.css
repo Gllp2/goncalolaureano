@@ -17,7 +17,7 @@ a {
 }
 
 .container {
-  background-color: var(--header-color);
+  background-image: linear-gradient(to right,#323841, #1e2227);
   font-size: 1.2rem;
   font-family: "Nunito Sans", sans-serif;
   height: 70px;
