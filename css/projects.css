@@ -5,6 +5,8 @@
     --header-color: #323841;
     --text-color: #F6f2EE;
     --hover-color: #Cacbcd;
+    --text-tmr-color: #01C4F0;
+    --text-code-color: #3D56B9;
 }
 
 
@@ -17,7 +19,7 @@ a {
 }
 
 .container {
-  background-color: var(--header-color);
+  background-image: linear-gradient(to right,#323841, #1e2227);
   font-size: 1.2rem;
   font-family: "Nunito Sans", sans-serif;
   height: 70px;
@@ -34,7 +36,7 @@ a {
 }
 
 .logo {
-  margin-top: 8px;
+  margin-top: 6px;
   margin-left: 10px;
 }
 
@@ -65,49 +67,80 @@ a {
 }
 
 .title {
-  display: flex;
-  justify-content: center;
-  font-family: "Krona One", sans-serif;
-  color : var(--text-color);
-  font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    font-family: "Krona One", sans-serif;
+    color : var(--text-color);
+    font-size: 4rem;
 }
 
-.iframes {
+.xp {
   display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-  max-width: 1300px;
-  margin: 5rem auto;
-}
-
-.iframeone {
-  width: 100%;
-  height: 100%; 
-  border: none; 
-  border-radius: 10px;
-}
-
-.boxiframe {
-  flex: 0 0 calc(25% - 2rem); 
-  height: 250px;
-  background-color: #2d2f34;
-  display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  color: white;
-  font-size: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  height: 110vh;
+  
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  color: var(--text-color);
+  font-family: krona One, sans-serif;
+  width: 700px;
+  height: 900px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  color: var(--text-color);
+  font-family: krona One, sans-serif;
+  width: 700px;
+  height: 900px;
+}
+
+
+h1 {
+  font-size: 3.5rem;
+  text-shadow: 3px 3px 5px #262525;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #3D56B9;
+  text-shadow: 3px 3px 5px #262525;
+}
+li {
+  list-style-type:none;
+}
+p{
+  display: flex;
+  font-size: 10px;
+  width: 500px;
+  margin-left: 30px;
+  font-size: 1rem;
+  text-shadow: 3px 3px 5px #262525;
+}
+
+.skills{
+  list-style-type: disc;
+  color: var(--text-tmr-color);
+}
+
+.dates{
+  font-size: 1.1rem;
+  text-shadow: 3px 3px 5px #262525;
 }
 
 footer .socials{
   display: flex;
-  width: 100%;
+  width: auto;
   justify-content: center;
-  position:relative;
+  position: fixed;
   justify-content: center;
   bottom: 0;
+  position: relative;
 }
 
 .discord {
@@ -136,7 +169,7 @@ footer .socials{
 
 .instagram {
   width: 50px;
-  margin-right: 94px;
+  margin-right: 90px;
   margin-left: 5px;
 }
 
@@ -160,46 +193,74 @@ footer .socials{
   .menu {
     margin-right: 1px;
   }
-
-  .title {
-    display: flex;
-    justify-content: center;
-    font-family: "Krona One", sans-serif;
-    color : var(--text-color);
-    font-size: 2rem;
-  }
-
-  .iframes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin: 5rem auto;
-    flex-wrap: wrap;
-  }
-
-  .boxiframe {
-    flex: 0 0 50%; 
-  }
-
-  .iframeone {
-    width: 100%;
-    height: 100%; 
-    border: none; 
-    border-radius: 10px;
-  }
-
   
 
+
+  .xp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 200vh;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    font-family: krona One, sans-serif;
+    margin-top: 20px;
+    width: 300px;
+    height: auto;
+    background-color: var(--header-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    font-family: krona One, sans-serif;
+    background-color: var(--header-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 300px;
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    list-style-type: circle;
+    margin: 10px;
+  }
+  
+  p{
+    font-size: 1rem;
+    width: auto;
+    margin: 10px;
+  }
+
+  .dates{
+    font-size: 1rem;
+  }
+  
   footer .socials {
     padding-bottom: 0.5rem;
-    justify-content: center;
+    position: relative;
+    width: auto;
   }
 
   .discord {
     width: 50px;
     margin-right: 5px;
-    margin-left: 5px;
+    margin-left: 40px;
+    
   }
   
   .linkedin {
@@ -222,7 +283,6 @@ footer .socials{
   
   .instagram {
     width: 50px;
-    margin-right: 94px;
     margin-left: 5px;
   }
   
