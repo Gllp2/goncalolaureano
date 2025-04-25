@@ -217,6 +217,7 @@ footer .socials{
     position: fixed;
     justify-content: center;
     bottom: 0;
+    position: relative;
   }
 
   .discord {
