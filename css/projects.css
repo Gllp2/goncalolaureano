@@ -180,13 +180,13 @@ footer .socials{
 
   .boxiframe {
     flex: 0 0 50%;
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
   }
 
   .iframeone {
-    width: 500px;
-    height: 500px; 
+    width: 350px;
+    height: 350px; 
     border: none; 
     border-radius: 10px;
   }
