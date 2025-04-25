@@ -81,7 +81,7 @@ a {
     font-family: "Chakra Petch", sans-serif;
     font-size: 8rem;
     color: var(--text-tmr-color);
-    text-shadow: #3D56B9 4px 0 0px;
+    text-shadow: #3D56B9 4px 0 8px;
 }
 
 .code {
