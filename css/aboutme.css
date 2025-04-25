@@ -129,7 +129,7 @@ footer .socials{
   display: flex;
   width: 100%;
   justify-content: center;
-  position: relative;
+  position: fixed;
   justify-content: center;
   bottom: 0;
 }
