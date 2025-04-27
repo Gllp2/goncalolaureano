@@ -109,7 +109,7 @@ a {
   color: var(--text-color);
   font-family: "krona One", sans-serif;
   font-size: 2rem;
-  position: fixed;
+  position: relative;
 }
 
 .wholeslogan {
@@ -218,7 +218,7 @@ footer .socials{
     position: fixed;
     justify-content: center;
     bottom: 0;
-    position: fixed;
+    position: static;
   }
 
   .discord {
